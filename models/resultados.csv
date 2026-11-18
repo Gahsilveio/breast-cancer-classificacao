@@ -1,0 +1,6 @@
+modelo,acuracia_validacao_cruzada,acuracia_teste,melhores_parametros
+Árvore de Decisão,0.7765,0.7069,{'clf__max_depth': 2}
+Random Forest,0.7586,0.7069,"{'clf__max_depth': 5, 'clf__n_estimators': 100}"
+SVM,0.7543,0.7414,"{'clf__C': 1, 'clf__kernel': 'rbf'}"
+KNN,0.7457,0.7241,{'clf__n_neighbors': 11}
+Regressão Logística,0.7235,0.7069,{'clf__C': 0.1}
